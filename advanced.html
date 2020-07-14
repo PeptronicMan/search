@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search</title>
+        <title>Advanced Search</title>
     </head>
     <body>
-      <a style= "float: right; padding-right: 25px;" href="index.html">Google Search</a>
+
+      <a style= "float: right; padding-right: 25px;" href="index.html">Google Search</a> <br>
+    <center>  <b>Advanced Search</b> <br></center>
+      <center><b>Find pages with...</b><br> </center>
         <form action="https://www.google.com/search?as_">
-            <input type="text" name="q">
+        <center>  <strong>all these words:</strong>  <input type="text" name="as_q"> </center>
+        <center>  <strong>this exact word or phrase:</strong>  <input type="text" name="as_epq"> </center>
+        <center>  <strong>any of these words:</strong>  <input type="text" name="as_oq"> </center>
+        <center>  <strong>none of these words:</strong>  <input type="text" name="as_eq"> </center>
             <input type="submit" value="Google Search">
         </form>
     </body>
